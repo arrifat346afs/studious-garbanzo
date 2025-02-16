@@ -1,4 +1,4 @@
-const API_KEY = import.meta.env.VITE_API_KEY; // Add your Google API Key here if required
+const API_KEY = VITE_API_KEY; // Add your Google API Key here if required
 const BASE_URL = "https://www.googleapis.com/books/v1";
 
 export const getPopularBooks = async (maxResults = 30) => {
